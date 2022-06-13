@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <h1>Ahorcado!</h1>
+    </header>
+    <main>
+        <input type="text" id="palabraNueva" placeholder="Palabra [11 letras máx]" maxlength="11" autofocus>
+        <div>
+            <input type="boton" value="Agregar Palabra" class="botonC" id="agregarPalabra" onclick="agregarPalabra();" />
+            <a href="index.html" class="botonC" id="start">Volver a Inicio</a>
+        </div>
+        <canvas id="tablero" height="0px" width="0px"></canvas>
+    </main>
+    <footer>
+        <p id="fp1">Many hours of coding by: <span>Ing. Adrián Eze Angió</span></p>
+        <p id="fp2">Gratefulness to: <span>Alura Latam & Oracle ONE !!!</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

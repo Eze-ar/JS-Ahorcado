@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    font-family: 'Indie Flower';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: left;
+}
+
+header img {
+    padding: 8px;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: auto;
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px #636363cc;
+    color: darkblue;
+}
+
+main {
+    text-align: center;
+}
+
+canvas {
+    margin-top: 6rem;
+}
+
+.botonG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 24px;
+    border: none;
+    width: 269px;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #949494c5;
+    background-color: rgb(0, 0, 75);
+    text-decoration: none;
+}
+
+.botonG:hover,
+.botonC:hover {
+    background-image: linear-gradient( rgb(17, 101, 255), rgb(0, 0, 75));
+    box-shadow: 5px 5px #949494c5;
+    color: white;
+}
+
+.botonC {
+    margin-top: 2rem;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 24px;
+    border: none;
+    width: 175px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #949494c5;
+    background-color: rgb(0, 0, 75);
+    text-decoration: none;
+}
+
+#palabraNueva {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-size: 3rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: darkblue;
+}
+
+#palabraNueva:focus {
+    outline: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    /*posición fija y*/
+    bottom: 0;
+    /*a 0px desde el final de página*/
+    background: rgb(0, 0, 75);
+    width: 100%;
+}
+
+footer p {
+    margin: 0.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer p span {
+    font-weight: bold;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
